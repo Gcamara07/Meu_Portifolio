@@ -1,21 +1,28 @@
 body{
     margin: 0px;
     font-size: 16px;
-    font-family: "Montserrat";
+    font-family: "Heebo", sans-serif;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    background-color: #171023;
 }
 
 h1{
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
 }
 
 h2{
     margin: 0;
-    font-size: 1rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+h3{
+    margin: 0;
+    font-size: 1.5rem;
     line-height: 2rem;
 }
 
@@ -29,13 +36,15 @@ a{
     color: white;
     text-decoration: none;
 }
+
+
 .header{
     display: flex;
     position: relative;
     align-items: center;
     width: 100%;
     height: 5rem;
-    background-color: #171023;
+    
     color: white;
     
 }
@@ -47,12 +56,65 @@ a{
 .HeaderMenu{
     display: flex;
     position: relative;
-    margin-left: 75rem;
+    margin-left: 61rem;
+    margin-right: 7rem;
     
 }
 
-.HeaderMenu h2 {
+.HeaderMenu h3 {
     margin-left: 1.5rem;
+}
+
+.apresentation{
+    display: flex;
+    gap: 20rem;
+    margin-top: 6rem;
+}
+
+#Text_apresentation{
+    text-align:left;
+    width: 37rem;
+    height: 19rem;
+    color: white;
+    margin-left: 13rem;
+    margin-bottom: 8.5rem;
+    margin-top: 6rem;
+}
+#Text_apresentation h2{
+    margin-bottom: 2rem;
+}
+
+#img_apresentation{
+    width: 38rem;
+    height: 26rem;
+   
+}
+
+#buttons_apresentation{
+    display: flex;
+}
+
+#buttons_apresentation button{
+    background-color: #413A4F;
+    border: 0;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    
+}
+
+#buttons_apresentation button:hover{
+    transition-duration: .7s;
+    transform: scaleZ(-7px);
+    background-color: #665d7a;
+}
+
+
+#buttons_apresentation #b2{
+    margin-left: 1rem;
 }
 
 
