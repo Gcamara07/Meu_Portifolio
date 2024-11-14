@@ -109,6 +109,7 @@ a{
     transition-duration: .7s;
     transform: scaleZ(-7px);
     background-color: #665d7a;
+    transform: translateY(-3px);
 }
 
 
@@ -139,4 +140,68 @@ a{
  }
 
 
+#tituloProjetos{
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
 
+#tituloProjetos p{
+    color: #7DFFAF;
+}
+
+.ProjectsGrid{
+    width: 76rem;
+    height: 21.5rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5rem;
+    margin-left: 16rem;
+}
+
+.MyProjects{
+    width: 24rem;
+    height: 21.5rem;
+    background-color: #413A4F;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    color: white;
+    border-radius: 1rem;
+
+}
+
+.MyProjects > img{
+   margin-left: 1.5rem;
+   border-radius: 1rem;
+}
+
+.MyProjectsText{
+    margin-left: 1.5rem;
+}
+
+#ProjectsButton{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 7.5rem;
+}
+
+#ProjectsButton > button{
+    background-color: #413A4F;
+    border: 0;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 4rem;
+    padding: 1.5rem, 1rem ;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#ProjectsButton > button:hover{
+    transition-duration: .7s;
+    transform: scaleZ(-7px);
+    background-color: #7b748a;
+    transform: translateY(-3px);
+}
