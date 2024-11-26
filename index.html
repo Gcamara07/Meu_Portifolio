@@ -12,7 +12,7 @@
 <body>
 
     <head>
-        <section class="header">
+        <section id="header" class="header">
          <div class="HeaderTitle">
              <h1>Gabriel.C</h1>
          </div>
@@ -33,8 +33,8 @@
             <h3>Desenvolvedor Front-End</h3>
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin</p>
              <div id="buttons_apresentation">
-                <button><a href="">Quem Sou</a></button>
-                <button id="b2"> <a href="">Meus Projetos</a></button>
+                <button><a href=#AboutMe>Quem Sou</a></button>
+                <button id="b2"><a href=#Projects>Meus Projetos</a></button>
              </div>
         </div>
         <div  class= "item" id="img_apresentation">
@@ -42,7 +42,7 @@
         </div>
       </section>
 
-      <section class="aboutMe">
+      <section id="AboutMe" class="aboutMe">
         <div class="item">
             <img src="./imagens/img_apresentação.png" alt="">
         </div>
@@ -56,7 +56,7 @@
         </div>
       </section>
 
-      <section class="Projects">
+      <section id="Projects" class="Projects">
         <div id="tituloProjetos">
             <p>Projetos</p>
             <h2>De uma olhada nos meus projetos</h2>
@@ -123,9 +123,21 @@
         </div>
 
       </section>
-
-
     </main>
+
+    <footer >
+
+      <div>
+        <p>Gabriel Camara 2024. Layout based on Rocketseat’s template.</p>
+      </div>
+
+      <div id="footerLinks">
+        <p><a href=""></a>Linkedin</p>
+        <p><a href=""></a>GitHub</p>
+        <button><a href=#header><img src="./imagens/ArrowUp.png"></a></button>
+      </div>
+      
+    </footer>
     
 </body>
 </html>

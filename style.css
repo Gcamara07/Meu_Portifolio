@@ -236,6 +236,7 @@ input{
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.1rem;
+    border: none;
 }
 
 #Menssage{
@@ -245,6 +246,7 @@ input{
     padding: 1rem;
     border-radius: 8px;
     font-size: 1.2rem;
+
 }
 
 #ButtonForm{
@@ -276,7 +278,6 @@ input{
     width: 3rem;
     height: 3rem;
     
-    
 }
 
 #b1{
@@ -293,4 +294,37 @@ input{
  cursor: pointer;
  border-radius: 8px;
  text-align: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    
+}
+
+
+
+#footerLinks{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-left: 7rem;
+    
+    
+}
+
+#footerLinks > button{
+    background-color: #171023;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#footerLinks > p{
+    cursor: pointer;
 }
